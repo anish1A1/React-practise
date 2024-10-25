@@ -3,6 +3,7 @@ import { useEffect, useReducer, useState } from 'react'
 import './App.css'
 import UsingReducer from './practise/usingReducer';
 import RenderingLists from './practise/RenderingLists';
+import UsingRef from './practise/UsingRef';
 
 function App() {
   
@@ -26,6 +27,7 @@ function App() {
     
         <UsingReducer />
         <RenderingLists />
+        <UsingRef />
       
     </>
   )
