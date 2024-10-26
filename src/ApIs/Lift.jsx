@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 
 export default function Lift({
    
-    // eslint-disable-next-line react/prop-types
+    
     name,  elevationGain,  status
 }) {
     const styling = {
