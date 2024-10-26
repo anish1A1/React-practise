@@ -5,6 +5,7 @@ import UsingReducer from './practise/usingReducer';
 import RenderingLists from './practise/RenderingLists';
 import UsingRef from './practise/UsingRef';
 import Displaycolor from './practise/Displaycolor';
+import Git from './ApIs/Git'
 
 function App() {
   
@@ -30,9 +31,14 @@ function App() {
         <RenderingLists />
         {/* <UsingRef /> */}
         <Displaycolor />
+        <br />
+
+        <Git />
       
     </>
   )
 }
 
 export default App
+
+    

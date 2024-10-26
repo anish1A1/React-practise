@@ -9,6 +9,7 @@ function useInput(inputvalue){
           onChange : (e) => setValue( e.target.value)
         },
         () => setValue(inputvalue)  // cleanup function to set the value back to inputvalue
+        //if    () => setValue(inputvalue)  is removed then whatever the input is it will not be removed
     ];
 }
 
