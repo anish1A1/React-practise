@@ -4,6 +4,7 @@ import './App.css'
 import UsingReducer from './practise/usingReducer';
 import RenderingLists from './practise/RenderingLists';
 import UsingRef from './practise/UsingRef';
+import Displaycolor from './practise/Displaycolor';
 
 function App() {
   
@@ -27,7 +28,8 @@ function App() {
     
         <UsingReducer />
         <RenderingLists />
-        <UsingRef />
+        {/* <UsingRef /> */}
+        <Displaycolor />
       
     </>
   )
