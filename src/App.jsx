@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import { useEffect, useReducer, useState } from 'react'
+//import { useEffect, useReducer, useState } from 'react'
 
 import './App.css'
 import UsingReducer from './practise/usingReducer';

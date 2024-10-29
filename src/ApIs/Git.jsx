@@ -10,7 +10,7 @@ export default function Git(){
 
     //for errors while fetching user
     const [error, setError] = useState(null);
-    const [loading, setLoading] = useState(false)
+    const [loading, setLoading] = useState(false);
 
 
     useEffect( () =>{
@@ -55,7 +55,7 @@ export default function Git(){
            
             <br />
 
-           <GitUser name={data.name} location ={location ? location : 'No location defined' } 
+           <GitUser name={data.name} location ={location || 'No location defined' } 
            avatar = {data.avatar_url} height = "150" 
            />
 
